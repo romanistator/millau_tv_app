@@ -1,4 +1,9 @@
+body{
+  background-image: url("/public/images/logo.jpg");
+  background-size: 100%;
+}
 #root {
+  
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -35,6 +40,13 @@
 
 .card {
   padding: 2em;
+  transition-duration: 0.4s;
+  
+}
+.card:hover {
+  scale: 1.1;
+  transition-duration: 0.4s;
+  
 }
 
 .read-the-docs {
