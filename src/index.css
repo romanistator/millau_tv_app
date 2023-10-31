@@ -13,7 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+body{
+  background-image: url("/public/images/logo.jpg");
+  background-attachment: fixed;
+  
+}
 a {
   font-weight: 500;
   color: #646cff;

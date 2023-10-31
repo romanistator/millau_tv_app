@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {Article} from './Article'
+import {ListArticle} from './ListArticle'
 
 export function Input(){
 
@@ -21,7 +21,7 @@ export function Input(){
         <>
             <input onChange={handleChange}/>
             {result.map((article,index)=>
-                <Article
+                <ListArticle
                     key={index}
                     article={article}/>
             )}

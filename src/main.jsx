@@ -5,6 +5,7 @@ import './index.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import {Show} from './pages/Show.jsx'
+import { About } from './pages/About.jsx';
 
 const router = createBrowserRouter([
   {
@@ -12,8 +13,8 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/about",
-    element:<h1>Ceci est une autre page</h1>
+    path: "/about/:id",
+    element:<About/>
   },
   {
     path: "/show/:id",
